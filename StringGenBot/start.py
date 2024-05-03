@@ -24,15 +24,15 @@ async def start(bot: Client, msg: Message):
 
 ⎚¦ باެيࢪۅٛجࢪاެم ميۅٛࢪ࣪ك اެݪبۅٛتاެت
 
-⎚¦ تَمِ اެنِشِاެ۽ اެݪبَۅٛتَ بَۅٛاެسِطَةِ [ㅤ𓏺 ˛ َِ𝗗َِ𝗲َِ𝗩 َِ𝗦َِ𝗲َِ𝗡َِ𝘇َِ𝗜َِ𝗿 .. 🧑‍💻 ˼](https://t.me/IC_X_K)""",
+⎚¦ تَمِ اެنِشِاެ۽ اެݪبَۅٛتَ بَۅٛاެسِطَةِ [ㅤ𓏺 ˛𝐒𝐎𝐔𝐑𝐂𝐄 R𝐀3𝐃 .. 🧑‍💻 ˼](https://t.me/SK_LH)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="إاެضغط ݪبد۽ اެستخࢪاެج كۅٛد", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("🔥 اެݪسۅٛࢪس 🔥", url="https://t.me/def_Zoka"),
-                    InlineKeyboardButton("🧑‍💻 اެݪمِطَۅٛࢪ 🧑‍💻", user_id=OWNER_ID)
+                    InlineKeyboardButton("🔥 اެݪسۅٛࢪس 🔥", url="https://t.me/RA_RC"),
+                    InlineKeyboardButton("🧑‍💻 اެݪمِطَۅٛࢪ 🧑‍💻", user_id=7061508822)
                 ]
             ]
         ),
