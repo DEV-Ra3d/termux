@@ -31,8 +31,8 @@ async def start(bot: Client, msg: Message):
                     InlineKeyboardButton(text="إاެضغط ݪبد۽ اެستخࢪاެج كۅٛد", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("🔥 اެݪسۅٛࢪس 🔥", url="https://t.me/RA_RC"),
-                    InlineKeyboardButton("🧑‍💻 اެݪمِطَۅٛࢪ 🧑‍💻", user_id=7061508822)
+                    InlineKeyboardButton("🔥 اެݪسۅٛࢪس 🔥", url="https://t.me/SK_LH"),
+                    InlineKeyboardButton("🧑‍💻 اެݪمِطَۅٛࢪ 🧑‍💻", user_id=OWNER_ID)
                 ]
             ]
         ),
