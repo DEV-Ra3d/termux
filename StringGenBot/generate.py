@@ -160,7 +160,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**جلستك يبروو {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @IC_X_K \n🧑‍💻 **ɴᴏᴛᴇ :** حافظ عليها ممكن حد يخترقكك بيها\n انضم هناا فضلا @def_Zoka 🥺"
+    text = f"**جلستك يبروو {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @SK_LH \n🧑‍💻 **ɴᴏᴛᴇ :** حافظ عليها ممكن حد يخترقكك بيها\n انضم هناا فضلا @RA_RC 🥺"
     try:
         if not is_bot:
             await client.send_message("me", text)
@@ -169,7 +169,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "»🔥تَمِ اެسِتَخِࢪاެجَ اެݪجَݪسِةِ بَنِجَاެحِ    ️ {} .\n\n🔍من فضلك اذهب الي الرسايل المحفوظه بحسابك!  ! \n\n**ᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ** @IC_X_K 🥺".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
+    await bot.send_message(msg.chat.id, "»🔥تَمِ اެسِتَخِࢪاެجَ اެݪجَݪسِةِ بَنِجَاެحِ    ️ {} .\n\n🔍من فضلك اذهب الي الرسايل المحفوظه بحسابك!  ! \n\n**ᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ** @SK_LH 🥺".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
 
 
 async def cancelled(msg):
